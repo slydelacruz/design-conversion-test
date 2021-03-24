@@ -1,0 +1,22 @@
+.hero {
+    height: 450px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../src/images/hero.jpg');
+    align-items: center;
+    display: flex;
+    color: $white;
+
+    &__title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    &__sub-title {
+        font-weight: 100;
+        font-size: 21px;
+        margin-top: 15px;
+    }
+}

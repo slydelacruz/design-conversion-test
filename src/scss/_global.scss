@@ -1,0 +1,50 @@
+body {
+    background-color: $gray;
+    font-family: 'Open Sans', sans-serif;
+    color: $black;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+button {
+    border: 1px solid $white;
+    padding: 10px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: $white;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+}
